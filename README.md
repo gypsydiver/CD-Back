@@ -1,3 +1,11 @@
 # cdDemo
 
-a [Sails](http://sailsjs.org) application
+Setup
+```
+npm install
+```
+
+Run
+```
+grunt mocha_istanbul
+```
