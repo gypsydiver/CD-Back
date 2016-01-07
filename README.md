@@ -1,2 +1,3 @@
-# CD-Back
-Continuous delivery demo
+# cdDemo
+
+a [Sails](http://sailsjs.org) application
