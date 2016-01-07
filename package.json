@@ -25,7 +25,8 @@
   },
   "scripts": {
     "debug": "node debug app.js",
-    "start": "node app.js"
+    "start": "node app.js",
+    "test": "mocha test/unit/**/*.test.js"
   },
   "main": "app.js",
   "repository": {
@@ -33,5 +34,13 @@
     "url": "git://github.com/DanielMontesDeOca/CD-Back.git"
   },
   "author": "danielmontesdeoca",
-  "license": ""
+  "license": "",
+  "devDependencies": {
+    "assert": "^1.3.0",
+    "grunt-mocha-istanbul": "^3.0.1",
+    "istanbul": "^0.3.18",
+    "mocha": "^2.2.5",
+    "sails-test-helper": "git+https://github.com/Subastkar/sails-test-helper.git",
+    "supertest": "^1.1.0"
+  }
 }
