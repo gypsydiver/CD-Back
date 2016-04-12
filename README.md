@@ -9,5 +9,3 @@ Run
 ```
 grunt mocha_istanbul
 ```
-
-a simple change
