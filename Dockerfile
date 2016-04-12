@@ -1,4 +1,4 @@
-FROM 2b7b741f.ngrok.io/nodes/node:4.4.2
+FROM docker.agavelab.com/nodes/node:4.4.2
 
 ADD . /app
 WORKDIR /app
